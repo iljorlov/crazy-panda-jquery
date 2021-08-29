@@ -1,0 +1,83 @@
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+.bg-sliders {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 1rem;
+  width: 45%;
+}
+
+.text-sliders {
+  display: none;
+  flex-direction: column;
+  width: 45%;
+  padding: 1rem;
+}
+
+.result-bg {
+  border: 1px solid #989898;
+  width: 45%;
+  padding: 0.5rem;
+  border-radius: 2px;
+}
+
+.slider {
+  margin-bottom: 1rem;
+}
+
+.text-bg-buttons {
+  padding: 1rem 2rem;
+}
+.text-bg-buttons fieldset {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+#red-text-slider,
+#red-bg-slider {
+  width: 100%;
+  background: #e72923;
+}
+#green-text-slider,
+#green-bg-slider {
+  width: 100%;
+  background: #8ae530;
+}
+#blue-text-slider,
+#blue-bg-slider {
+  width: 100%;
+  background: #7a9acd;
+}
+
+#red-bg-slider .ui-slider-handle,
+#red-text-slider .ui-slider-handle {
+  border-color: #e72923;
+}
+#green-bg-slider .ui-slider-handle,
+#green-text-slider .ui-slider-handle {
+  border-color: #8ae530;
+}
+#blue-bg-slider .ui-slider-handle,
+#blue-text-slider .ui-slider-handle {
+  border-color: #7a9acd;
+}
+
+button {
+  background-color: #e1e1e1;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+.selected-btn {
+  background-color: #4073fe;
+  color: #e5e5e5;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+}
